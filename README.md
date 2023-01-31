@@ -1,15 +1,19 @@
 # Go SQL Like expression
 Convert SQL Like patterns to Go regular expressions.
 
+[![Test](https://github.com/shellyln/go-sql-like-expr/actions/workflows/test.yml/badge.svg)](https://github.com/shellyln/go-sql-like-expr/actions/workflows/test.yml)
+[![release](https://img.shields.io/github/v/release/shellyln/go-sql-like-expr)](https://github.com/shellyln/go-sql-like-expr/releases)
+[![Go version](https://img.shields.io/github/go-mod/go-version/shellyln/go-sql-like-expr)](https://github.com/shellyln/go-sql-like-expr)
+
 ## 🚀 Usage
 
 ```go
 package main
 
 import (
-	"fmt"
+    "fmt"
     "regexp"
-	"github.com/shellyln/go-sql-like-expr/likeexpr"
+    "github.com/shellyln/go-sql-like-expr/likeexpr"
 )
 
 func main() {
